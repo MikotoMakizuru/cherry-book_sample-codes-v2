@@ -58,7 +58,7 @@ greeting #=> "Ciao"
 country = 'italy'
 
 # if節とelsif節のどちらの条件にも合致しないのでif文全体の戻り値はnil
-greeting =
+greeting
   if country == 'japan'
     'こんにちは'
   elsif country == 'us'
@@ -83,7 +83,7 @@ point = 7
 day = 1
 # 1日であればポイント5倍（if修飾子を利用）
 point *= 5 if day == 1
-point #=> 35
+p point #=> 35
 
 # ----------------------------------------
 
